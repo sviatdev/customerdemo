@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS customers(
+    id INTEGER SERIAL PRIMARY KEY,
+    first_name VARCHAR NOT NULL,
+    last_name VARCHAR NOT NULL,
+    address VARCHAR NOT NULL,
+    budget DECIMAL NOT NULL
+)
